@@ -924,7 +924,7 @@ Use the [`--showSeed`](CLI.md#--showseed) flag to print the seed in the test rep
 
 ### `jest.setTimeout(timeout)`
 
-Set the default timeout interval (in milliseconds) for all tests and before/after hooks in the test file. This only affects the test file from which this function is called. The default timeout interval is 5 seconds if this method is not called.
+Set the default timeout interval (in milliseconds) for all tests and before/after hooks in the test file. This only affects the test file from which this function is called. The default timeout interval is 5 seconds if this method is not called. The timeout interval is applied to each test individually, not the test suite.  
 
 Example:
 
